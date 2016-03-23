@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>A quote a day</title>
+	</head>
+	<body>
+		<br/><br/><br/><br/><br/><br/><br/>
+		<div align = "center">
+			<h1 id = "quote"></h1>
+		</div>
+		<script type="text/javascript">
+			var quoteArray = [
+"First quote",
+"Second quote",
+"Third quote",
+"Fourth quote",
+"Fifth quote",
+"six",
+"Fifth quote ssfsef",
+"Fifth quotsfsdfse",
+"Fifth quothterree",
+"Fifth quotqWEQWEQe",
+"Fifth quotRGDRFGDFe",
+"Fifth quottwee",
+"Fifth quotfdgdfgde",
+"Fifth quotdfgdfgdfe",
+"Fifth quotedsgdfd",
+"Fifth quotedrgdfgfd",
+"Fifth quotssdsdfsde",
+"Fifth quotwwreese",
+"Fifth quoeefwerwete"
+			];
+			var randomNumber = Math.floor((Math.random() * 20) + 1);
+			document.getElementById('quote').innerHTML = quoteArray[randomNumber - 1];
+			//alert(quoteArray[randomNumber - 1]);
+		</script>	
+	</body>
+</html>
